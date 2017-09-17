@@ -10,7 +10,7 @@ namespace ClassEnrollment.DataAccess
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext() :base("DefaultConnection") { }
+        public SchoolContext() :base("SchoolContext") { }
 
         public DbSet<Student> Students { get; set; }
         public DbSet <Enrollment> Enrollments { get; set; }

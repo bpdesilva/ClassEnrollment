@@ -21,8 +21,8 @@ namespace ClassEnrollment.Models
             var courses = new List<Course>
             {
                 new Course{CourseID=1005,Title="Developing C# Application",Credits=5},
-                new Course{CourseID=1015,Title="Developing C# Application",Credits=5},
-                new Course{CourseID=1025,Title="Developing C# Application",Credits=5}
+                new Course{CourseID=1015,Title="Developing Xamarin Application",Credits=5},
+                new Course{CourseID=1025,Title="Developing ASP.NET Application",Credits=5}
             };
 
             courses.ForEach(c => context.Courses.Add(c));
